@@ -1,0 +1,29 @@
+{
+    "name": "hcdisat/commons",
+    "description": "Utilities Classes and traits",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hector  Caraballo",
+            "email": "hcdisat@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "illuminate/support": ">=5.2",
+        "illuminate/database": ">=5.2",
+        "illuminate/http": ">=5.2"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "HcDisat\\": "src"
+        },
+        "files": [
+            "helpers.php"
+        ]
+    }
+}
